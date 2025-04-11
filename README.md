@@ -38,6 +38,10 @@ Emotion Recognition: 94.11% accuracy, 95.46% precision, 93.94% F1 score
 Training Efficiency: Converged within 5 epochs with minimal overfitting
 
 Project Structure
+
+
+
+
 ![image](https://github.com/user-attachments/assets/1feeed61-51ac-4554-acd4-4dbd490aac5a)
 
 
