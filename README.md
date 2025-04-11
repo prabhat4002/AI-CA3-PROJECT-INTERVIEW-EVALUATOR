@@ -38,20 +38,7 @@ Emotion Recognition: 94.11% accuracy, 95.46% precision, 93.94% F1 score
 Training Efficiency: Converged within 5 epochs with minimal overfitting
 
 Project Structure
-
-intervalyze/
-├── app.py                  # Flask web application
-├── models/                 # Trained model files
-│   ├── emotion_model/      # Fine-tuned emotion recognition model
-│   └── transcription/      # Transcription model
-├── static/                 # CSS, JS, and static assets
-├── templates/              # HTML templates
-├── utils/                  # Helper functions and utilities
-│   ├── audio_processing.py # Audio preprocessing functions
-│   ├── emotion.py          # Emotion recognition module
-│   └── similarity.py       # Semantic similarity calculation
-├── notebooks/              # Jupyter notebooks for model training
-└── data/                   # Sample audio files and reference answers
+![image](https://github.com/user-attachments/assets/1feeed61-51ac-4554-acd4-4dbd490aac5a)
 
 
 Limitations
