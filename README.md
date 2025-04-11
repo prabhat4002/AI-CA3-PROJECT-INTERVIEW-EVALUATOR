@@ -1,4 +1,10 @@
 # AI-CA3-PROJECT-INTERVIEW-EVALUATOR
+Team Members
+
+Kasturi Sangale (22070122096)
+Mayank Sahai (22070122115)
+Prabhat Shankar (22070122147)
+
 
 Intervalyze: Mock Interview Evaluator
 Intervalyze is an AI-powered mock interview evaluation system that provides comprehensive feedback through speech analysis, integrating emotion recognition, transcription, and semantic similarity evaluation.
