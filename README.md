@@ -20,6 +20,17 @@ Semantic Analysis: BERT model (sentence-transformers/bert-base-nli-mean-tokens)
 Web Interface: Flask framework
 Data Processing: Librosa for audio processing, PyTorch for model implementation
 
+Block Diagram
+
+![image](https://github.com/user-attachments/assets/8846c550-95ea-46bb-a7bb-5d07b6e7e483)
+•  Audio Input: The system begins with the user providing an audio sample which serves as the core input for further processing.
+•  Emotion Detection: The audio path is processed to detect emotional content using a fine-tuned model, which outputs emotion probabilities.
+•  Interview Emotion Mapping: These probabilities are mapped to predefined interview-related emotional categories to contextualize the speaker’s sentiments.
+•  Transcription: Simultaneously, the same audio input is converted into textual format through an automatic speech recognition system.
+•  Similarity Analysis: The transcribed text is compared against a reference answer using semantic similarity techniques, producing a similarity score and emotion context (e.g., from the TESS dataset).
+•  Feedback Generation: Based on the interview emotion mapping and similarity analysis results, the system generates personalized feedback.
+•  Output Display: The final emotion labels, similarity scores, and generated feedback are presented to the user through a user-friendly interface
+
 
 Performance Metrics
 
