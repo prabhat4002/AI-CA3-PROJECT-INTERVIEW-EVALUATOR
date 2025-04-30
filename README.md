@@ -31,6 +31,8 @@ Data Processing: Librosa for audio processing, PyTorch for model implementation
 Block Diagram
 
 ![image](https://github.com/user-attachments/assets/8846c550-95ea-46bb-a7bb-5d07b6e7e483)
+Fig. Block diagram of entire project 
+
 •  Audio Input: The system begins with the user providing an audio sample which serves as the core input for further processing.
 •  Emotion Detection: The audio path is processed to detect emotional content using a fine-tuned model, which outputs emotion probabilities.
 •  Interview Emotion Mapping: These probabilities are mapped to predefined interview-related emotional categories to contextualize the speaker’s sentiments.
