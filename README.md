@@ -31,7 +31,7 @@ Data Processing: Librosa for audio processing, PyTorch for model implementation
 Block Diagram
 
 ![image](https://github.com/user-attachments/assets/8846c550-95ea-46bb-a7bb-5d07b6e7e483)
-Fig. Block diagram of entire project 
+Fig 1. Block diagram of entire project 
 
 •  Audio Input: The system begins with the user providing an audio sample which serves as the core input for further processing.
 •  Emotion Detection: The audio path is processed to detect emotional content using a fine-tuned model, which outputs emotion probabilities.
@@ -53,6 +53,8 @@ Project Structure
 
 
 ![image](https://github.com/user-attachments/assets/1feeed61-51ac-4554-acd4-4dbd490aac5a)
+Fig 2. Project Structure  
+
 
 
 
@@ -61,6 +63,7 @@ Project Structure
 Data Collection
 The implementation of Intervalyze utilized the Toronto Emotional Speech Set (TESS) dataset, which includes 2800 WAV audio files, each labeled with one of seven emotions: happy, sad, angry, fear, disgust, surprise, or neutral. With 400 files per emotion, the dataset offers balanced representation, critical for robust model training. Recorded at a 24.414 kHz sampling rate, the files were resampled to 16 kHz during preprocessing to meet model requirements. The dataset was divided into 2240 training and 560 testing instances, supporting the development and evaluation of the speech emotion recognition component. For transcription and semantic similarity, pre-trained models were directly integrated, leveraging their generalized performance without additional data collection.
 ![image](https://github.com/user-attachments/assets/0a20d368-aaaa-4209-9a5e-af0dd74bcd3d)
+Fig 3. Data Distribution of Emotions
 
 
 Data Preprocessing 
@@ -73,6 +76,7 @@ Preprocessing focused on preparing audio for model compatibility. Using Librosa,
 
 
 ![image](https://github.com/user-attachments/assets/316c8bbe-6111-4845-892b-11d9ccf6e793)
+Fig4. Data Preprocessing
 
 Limitations
 
